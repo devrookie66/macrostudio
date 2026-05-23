@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.PNG" alt="Macro Studio Logo" width="140" />
+</p>
+
 # 🎛️ Macro Studio
 
 [![Rust](https://img.shields.io/badge/Language-Rust-orange?logo=rust&style=flat-square)](#)
@@ -6,17 +10,17 @@
 [![Open Source](https://img.shields.io/badge/Model-Open--Core-green?style=flat-square)](#)
 [![License](https://img.shields.io/badge/License-MIT-lightgray?style=flat-square)](#)
 
-A **lightweight, ultra-low-latency, and anti-cheat safe macro recorder** and automation engine designed for gamers, developers, and power-users. Built from the ground up using **Rust** and **Tauri v2** to ensure zero-cost abstractions, minimal resource overhead, and maximum execution precision.
+A **lightweight, ultra-low-latency, and anti-cheat safe macro recorder** designed for gamers, developers, and power-users. Built from the ground up using **Rust** and **Tauri v2** to ensure zero-cost abstractions, minimal resource overhead, and maximum execution precision.
 
 > **Why Open-Core?** Macro tools and input grabbers are naturally flagged by security software due to the nature of global keyboard hooks. By keeping our global hook, input swallowing, and emulation engine **100% open-source**, we prove to the community and security investigators that **Macro Studio is 100% transparent, malware-free, and contains zero remote telemetries/keyloggers**.
 
 ---
 
-## ✨ Features
+## ⚡ Current Features
 
-* **⚡ Ultra-Low Resource Overhead:** Compiles directly to native assembly. Idle RAM usage is **< 30MB**, with **~0% CPU utilization** in the background.
+* **🚀 Ultra-Low Resource Overhead:** Compiles directly to native assembly. Idle RAM usage is **< 30MB**, with **~0% CPU utilization** in the background.
 * **🔒 Anti-Cheat & Ban Safe (External-Only):** Strictly interacts via standard, native OS-level simulation APIs. Macro Studio **NEVER** hooks into other process memories, reads memory addresses, or injects kernel-level drivers.
-* **🎚️ Dense Sci-Fi Visual Timeline:** A beautifully crafted, monochrome utility dashboard featuring:
+* **🎚️ Dense Visual Timeline:** A beautifully crafted, monochrome utility dashboard featuring:
   * Dynamic keyframe timeline ruler & playhead synchronization.
   * Drag-and-drop keyframe reordering.
   * Context-sensitive inline delay (`ms`) editors.
@@ -29,27 +33,23 @@ A **lightweight, ultra-low-latency, and anti-cheat safe macro recorder** and aut
 
 ---
 
-## 🚀 Coming Soon: Next-Gen Automation Upgrades
+## 🔔 Coming Soon
 
-We are actively developing premium automation upgrades to transform Macro Studio into the ultimate desktop conductor:
+### 🌙 Sandboxed Lua Scripting (Active Development)
+Run highly complex automation algorithms, conditional loops, and trigger sequences using a fully sandboxed, highly-optimized **Lua 5.4 engine** mapped through native Rust bindings (`mlua`).
+* Reactive scripts responding to live hardware triggers (`OnEvent(event, arg)`).
+* Direct scripting APIs: `MoveMouseRelative(x, y)`, `PressKey(k)`, `ReleaseKey(k)`, `Sleep(ms)`, and more.
+* Automatic execution timeout protection and stuck key cleanups.
 
-> [!TIP]
-> ### 🌙 Sandboxed Lua Scripting (Active Development)
-> Run highly complex automation algorithms, conditional loops, and trigger sequences using a fully sandboxed, highly-optimized **Lua 5.4 engine** mapped through native Rust bindings (`mlua`).
-> * Reactive scripts responding to live hardware triggers (`OnEvent(event, arg)`).
-> * Direct scripting APIs: `MoveMouseRelative(x, y)`, `PressKey(k)`, `ReleaseKey(k)`, `Sleep(ms)`, and more.
-> * Automatic execution timeout protection and stuck key cleanups.
-
-### 🛡️ Other Roadmap Features:
-* **☁️ Cloud Sync & Macro Sharing:** Seamlessly sync your macro profiles and Lua scripts across different workstations with encrypted cloud backups.
-* **🎨 Pixel & OCR Detection:** Write reactive scripts that inspect screen pixels or read on-screen text to fire complex, context-dependent macros.
-* **🕹️ Advanced Game Controller Mapping:** Full emulation support for modern controller gamepads (XInput/DualShock).
+### 🆓 Free Download Release
+> [!IMPORTANT]
+> Macro Studio will be available to download for free **very soon**! Stay tuned for the initial release builds.
 
 ---
 
 ## 📦 Local Installation & Development
 
-To clone, build, and run the Free Open-Core version locally, make sure you have the standard [Tauri Prerequisites](https://v2.tauri.app/start/prerequisites/) installed for your operating system (Rust, Node.js, and C++ build tools).
+To clone, build, and run the Free Open-Core version locally, make sure you have the standard [Tauri Prerequisites](https://v2.tauri.app/start/prerequisites/) installed (Rust, Node.js, and C++ build tools).
 
 ### 1. Clone the repository
 ```bash
@@ -74,9 +74,12 @@ npm run tauri build
 
 ---
 
-## 🤝 Contributing
+## ✉️ Contact & Support
 
-We welcome community contributions, auditing, and pull requests! Feel free to open issues regarding input grabber performance, raw input mapping suggestions, or custom UI aesthetic improvements.
+For business inquiries, feedback, or custom integration requests, please reach out to us at:
+📧 **studioreas@mail.com**
+
+---
 
 ## 📄 License
 
