@@ -1,11 +1,11 @@
 {
-  "version": "1.1.0",
-  "notes": "Initial release of Macro Studio! Features: Zero-Trust Rust Security, Playback Equalizer animations, Right-click prevention, and optimized left menu spacing.",
-  "pub_date": "2026-05-26T12:00:00Z",
+  "version": "1.3.0",
+  "notes": "Bug fixes and performance improvements. overhauled keyframe delay sliders with real-time scaling and 60 FPS live-rendering.",
+  "pub_date": "2026-05-27T12:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSL3p3Q0FwK0pHLzNIZWdWUWU1QklTSU1Hc1ZNN2UrbERPSTJlVG9yMFhGNGdORkpuS2tnV3Q0VEFicnM0T08wQkpvSGNMVXZGU25ueFBIZlBEalc0bis0RUFKOUNCdkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5ODAxNjIxCWZpbGU6TWFjcm8gU3R1ZGlvXzEuMS4wX3g2NF9lbi1VUy5tc2kKZ2lLU2RvNW15QnpQVnY3aGdjYzh3ZWZxZVFJZkxVVFZ0RmJwc1ZDazZiZlltenUyY3hYbUlLUHhWMm1LQ3NnQ21NUXR3eWJHT2dzbmdZSXpxc21zQkE9PQo=",
-      "url": "https://github.com/devrookie66/macrostudio/releases/download/v1.1.0/Macro.Studio_1.1.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSL3p3Q0FwK0pHLzhZYTdpejVEV25hMW5jb1l2OXZaVjZIWDJoSUxheUxFY21MVzdiUHB1VExSOUhNTHVRTDd6SEhqMHRGOUVBbnhnQVBxd2wwMS9ETXhQWG55bSttTFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMTU5NDc0CWZpbGU6TWFjcm8gU3R1ZGlvXzEuMy4wX3g2NF9lbi1VUy5tc2kKbVF3MnI0UTNjL09kNjF3Vkh3emFrNE1wTXp3SDZlYXhVdkxLekk5MDVZdTRaREx0bHJHNE04amNWWDc2d3ZPa3pDcis0c25pdUNuTUM5di8wR2RsQ3c9PQo=",
+      "url": "https://github.com/devrookie66/macrostudio/releases/download/v1.3.0/Macro.Studio_1.3.0_x64_en-US.msi"
     }
   }
 }
